@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKER_USER = "sriganesh15"
-    BACKEND_IMG = "backend"
+    BACKEND_IMG = "node-backend"
     IMAGE_TAG   = "${BUILD_NUMBER}"
   }
 
