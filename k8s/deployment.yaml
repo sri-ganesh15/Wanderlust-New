@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-backend
-          image: sriganesh15/node-backend:${BUILD_NUMBER}
+          image: sriganesh15/backend:${BUILD_NUMBER}
           ports:
             - containerPort: 3000
           env:
