@@ -76,6 +76,6 @@ app.use((err,req,res,next)=>{
 })
 
 
-app.listen(8080,(req,res)=>{
-    console.log("app started to port no 8080");
+app.listen(3000,(req,res)=>{
+    console.log("app started to port no 3000");
 })
