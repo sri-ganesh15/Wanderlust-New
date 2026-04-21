@@ -54,7 +54,7 @@ app.use((req,res,next)=>{
 })
 
 //connecting the mongoose 
-const MONGO_URL="mongodb://127.0.0.1:27017/wanderlustNew"
+const MONGO_URL="mongodb+srv://22311a05f2_db_user:<db_password>@cluster0.icc6ax6.mongodb.net/"
 async function main(){
    await mongoose.connect(MONGO_URL);
 }
